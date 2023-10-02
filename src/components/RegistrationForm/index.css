@@ -1,0 +1,89 @@
+/* Write your CSS code here */
+*{
+    font-family: "roboto";
+}
+.registration-form{
+    box-shadow:0px 4px 16px 0px #bfbfbf;
+    border-radius: 8px;
+    height: 400px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.registration{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #ea580c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    font-size: 14px;
+    color: #475569;
+}
+.input{
+    width: 80%;
+    margin-bottom: 8px;
+    border: 1px solid #cbd2d9;
+    border-radius: 5px;
+    color: #cbd2d9;
+    padding: 12px
+}
+.error-input{
+    background-color: #fef2f4;
+    border:1px solid #ff0b37;
+}
+.error-msg{
+    font-size: 12px;
+    color: #ff0b37;
+}
+.btn-align{
+    text-align: center;
+}
+.submit-button{
+    background-color: #ea580c;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.submission-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0px 4px 16px 0px #bfbfbf;
+    border-radius: 8px;
+    height: 400px;
+    width: 750px;
+    padding: 15px;
+}
+.success-text{
+    font-size: 18px;
+    text-align: center;
+    color: #475569;
+}
+.another-button{
+    background-color: #ea580c;
+    color: #ffffff;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: none;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
